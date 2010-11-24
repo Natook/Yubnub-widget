@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, StartWidget!</string>
+    <string name="app_name">Yubnub-widget</string>
+<string name="skriv">Skriv här!</string>
+<string name="buttonText">Sök</string>
+</resources>
