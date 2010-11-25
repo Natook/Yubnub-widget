@@ -21,7 +21,6 @@ public class StartWidget extends Activity {
         setContentView(R.layout.main);
  
         final EditText input = (EditText) findViewById(R.id.input);
-        final TextView output = (TextView) findViewById(R.id.output);
     
 
 
@@ -39,7 +38,6 @@ public class StartWidget extends Activity {
         final Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new OnClickListener() {
         	public void onClick(View v){
-        		output.setText(input.getText());
 
             Intent browserIntent = new Intent("android.intent.action.VIEW", Uri.parse("http://yubnub.org/parser/parse?command="+input.getText()));
             startActivity(browserIntent);

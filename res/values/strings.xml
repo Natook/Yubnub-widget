@@ -2,6 +2,6 @@
 <resources>
     <string name="hello">Hello World, StartWidget!</string>
     <string name="app_name">Yubnub-widget</string>
-<string name="skriv">Skriv här!</string>
-<string name="buttonText">Sök</string>
+<string name="inputEditText"></string>
+<string name="searchButton">Search</string>
 </resources>
