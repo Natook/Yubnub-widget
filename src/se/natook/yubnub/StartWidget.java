@@ -22,8 +22,6 @@ public class StartWidget extends Activity {
  
         final EditText input = (EditText) findViewById(R.id.input);
     
-
-
         input.setOnKeyListener(new OnKeyListener() {
         	public boolean onKey(View v, int keycode, KeyEvent ke ){
         		if(keycode == ke.KEYCODE_ENTER) {
